@@ -25,13 +25,13 @@ This project is a simple countdown timer that plays an audio file when a button 
    
 ## How to Use
 
-Clone the repository:
+- Clone the repository:
 ```javascript
 git clone https://github.com/yourusername/countdown-timer.git
 ```
-Open index.html in your browser.
-Click the "Start" button to start the audio and countdown.
-Watch the countdown update until it reaches zero, then see the final message.
+- Open index.html in your browser.
+- Click the "Start" button to start the audio and countdown.
+- Watch the countdown update until it reaches zero, then see the final message.
 
 ## Future Improvements
 
