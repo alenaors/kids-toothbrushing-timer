@@ -1,0 +1,66 @@
+body {
+    background-image: url(kid.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(94, 97, 93, 0.9);
+    height: 100vh;
+    
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(228, 245, 242, 0.4);
+    font-family: 'Single Day', cursive;
+    font-size: 30px;
+}
+
+#container-countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+#countdown {
+    font-size: 60px;
+    margin-top: 100px;
+    background: linear-gradient(to right, #98e4c4, #f0f3f5);
+    border-radius: 20px;
+    padding: 30px;
+    font-family: 'Single Day', cursive;
+    border: 2px solid black;
+}
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+#myButton {
+    
+    padding: 10px;
+    background: linear-gradient(to right, #98e4c4, #f0f3f5);
+    border-radius: 20px;
+    font-family: 'Single Day', cursive;
+    font-size: 30px;
+}
+#myButton:hover {
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    }
+
+    @media all and (max-width:650px) {
+        #header {
+            font-size: 20px;
+        }
+    }
+
+    @media all and (max-width:450px) {
+        #header {
+            font-size: 15px;
+        }
+
+        #countdown {
+            font-size: 35px;
+            padding: 18 px;
+            margin-top: 20vh;
+        }
+    }
