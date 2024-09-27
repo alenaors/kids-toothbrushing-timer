@@ -18,7 +18,7 @@ This project is a simple countdown timer that plays an audio file when a button 
 ## How it Works
 
 1. The user clicks the **"Start"** button.
-2. An audio file (linked to the `#myAudio` element) starts playing.
+2. An audio file starts playing.
 3. A countdown begins, starting from 148 seconds (2 minutes and 28 seconds).
 4. The button becomes disabled to prevent multiple clicks.
 5. Once the countdown finishes, the message **"Toll gemacht!!!"** appears on the screen.
